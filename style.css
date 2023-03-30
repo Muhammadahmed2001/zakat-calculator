@@ -1,0 +1,27 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    background-image: url(background-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+@media only screen and (min-width: 470px) {
+    body {
+        background-image:url(background-laptop.jpg);
+    }
+}
+
+.amount {
+    width: 40% !important;
+
+
+
+}
+
+.amount-label {
+    font-size: 64%;
+}
