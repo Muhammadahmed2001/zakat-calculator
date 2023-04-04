@@ -13,32 +13,48 @@
 
 <body>
     <div class="container">
-    <form action="">
-
-
-            <!-- <div class="">
-        <form action="">
-            <label class="amount-label" for="amount">Cash in hand & in Bank Accounts</label><br>
-            <input placeholder="" height="50%" class="amount" type="number">
-        </form>
-         </div> -->
-            <div>
-                <div class="form-floating mb-1">
-                    <input type="number" onclick="amount" class="form-control " id="floatingInput amount" placeholder="PKR">
-                    <label for="floatingInput">Cash in hand & in Bank Accounts</label>
-                </div>
-                <div class="form-floating mb-1">
-                    <input type="text" class="form-control " id="floatingInput" placeholder="PKR">
-                    <label for="floatingInput">How much Gold do you have in weight</label>
-                </div>
-                <div class="form-floating mb-1">
-                    <input type="number" class="form-control " id="floatingInput" placeholder="PKR">
-                    <label for="floatingInput">How much Silver do you have in weight</label>
-                </div>
-                <button type="submit">submit</button>
+        <form>
+            <div class="heading">
+                <h1>ZAKAT CALCULATOR</h1>
             </div>
 
-            
+
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">CASH</span>
+                <input id="cash" type="number" class="form-control"
+                    placeholder="Cash in hand & in Bank Accounts" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">GOLD</span>
+                <input id="gold" type="number" class="form-control"
+                    placeholder="How much Gold do you have in weight" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">SILVER</span>
+                <input id="silver" type="number" class="form-control"
+                    placeholder="How much Silver do you have in weight" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon3">ASSETS</span>
+                <input placeholder="Your other assets in value" type="number" result
+                    class="form-control" id="basic-url assets" aria-describedby="basic-addon3">
+            </div>
+            <button onclick="abc()" id="" type="submit">chack</button>
+            <div class="last_div">
+                <label class="row last_heading" for="">TOTAL NET WORTH</label>
+                <span class="end_amount">RS :</span>
+                <span id="net_worth" class="end_amount">0</span>
+            </div>
+            <div class="">
+                <label class="row last_heading" for="">ZAKAT PAYABLE</label>
+                <span class="end_amount">RS :</span>
+                <span class="end_amount">0</span>
+            </div>
         </form>
     </div>
 

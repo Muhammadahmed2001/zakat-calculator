@@ -3,7 +3,8 @@
 }
 
 body {
-    background-image: url(background-mobile.jpg);
+    /* background-image: url(background-mobile.jpg); */
+    background-image: linear-gradient(135deg, #F05F57 10%, #360940 100%);
     background-repeat: no-repeat;
     background-size: 100%;
 
@@ -11,20 +12,40 @@ body {
 
 @media only screen and (min-width: 470px) {
     body {
-        background-image:url(background-laptop.jpg);
+        /* background-image:url(pngtree-islamic-background-mawlid-al-nabi-ramadan-kareem-festival-picture-image_1219836.jpg); */
         background-size: 100%;
 
-       
+
     }
 }
 
 .amount {
     width: 40% !important;
-
+    background: none;
 
 
 }
 
 .amount-label {
     font-size: 64%;
+}
+
+.heading {
+    color: #3b0b40;
+    text-shadow: 0 0 15px rgba(255, 255, 255, .5), 0 0 10px rgba(255, 255, 255, .5);
+    text-align: center;
+    padding-top: 10%;
+}
+
+.end_amount {
+    color: bisque;
+    font-size: xx-large;
+}
+
+.last_heading {
+    color: bisque;
+}
+
+.last_div {
+    padding-bottom: 5%;
 }
