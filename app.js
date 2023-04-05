@@ -17,19 +17,21 @@
 
 function abc() {
 
-var amount = document.getElementById("cash").value;
-var gold = document.getElementById("gold").value;
-var silver = document.getElementById("silver").value;
-var assets = document.getElementById("assets").value;
-var total = amount + gold + silver + assets;
-document.getElementById("net_worth").innerHTML = total
+    var amount = document.getElementById("cash").value;
+    var gold = document.getElementById("gold").value;
+    var silver = document.getElementById("silver").value;
+    // var total = amount + gold + silver;
+    // var assets = document.getElementById("assets").value;
+    var totalZakat = document.getElementById("net-worth");
+    totalZakat.innerHTML = amount + gold + silver;
 
-// console.log(amount.value);
-// console.log(gold.value);
-// console.log(silver.value);
-// console.log(total.value);
+
+    // console.log(amount.value);
+    // console.log(gold.value);
+    // console.log(silver.value);
+    // console.log(total.value);
 }
 
-    
+
 // var result = document.getElementById("total").value = amount + gold + silver;
 // result.innerHTML = total
