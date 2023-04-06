@@ -1,5 +1,6 @@
 * {
-    font-family: cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
 
 body {
@@ -17,14 +18,18 @@ body {
 
 }
 
-/* @media only screen and (min-width: 470px) {
+@media only screen and (max-width: 750px) {
     body {
-        background-image:url(pngtree-islamic-background-mawlid-al-nabi-ramadan-kareem-festival-picture-image_1219836.jpg);
         background-size: 100%;
+        background-color: #57283c;
+        background-image: linear-gradient(43deg, #57283c 0%, #1f0022 57%, #57283c 100%);
+
+
+
 
 
     }
-} */
+}
 
 .amount {
     width: 40% !important;
@@ -46,11 +51,13 @@ body {
 
 .end_amount {
     color: rgb(206, 31, 0);
-    text-shadow: 0 0 15px rgba(255, 255, 255, .5), 0 0 10px rgba(255, 255, 255, .5);
+    text-shadow: 0 0 5px rgba(255, 255, 255, .5), 0 0 5px rgba(255, 255, 255, .5);
     font-size: xx-large;
+    font-weight: bolder;
 }
 
 .last_heading {
+    font-weight: bolder;
     color: bisque;
     color: rgb(206, 31, 0);
     text-shadow: 0 0 15px rgba(255, 255, 255, .5), 0 0 10px rgba(255, 255, 255, .5);
@@ -58,12 +65,13 @@ body {
 
 .last_div {
     padding-bottom: 5%;
+    padding-top: 2%;
 }
 
 .btn-grad {
     background-image: linear-gradient(to right, #414d0b 0%, #727a17 51%, #414d0b 100%);
-    margin: 10px;
-    padding: 10px 30px;
+    margin: auto;
+    padding: 10px 30%;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
@@ -72,7 +80,7 @@ body {
     box-shadow: 0 0 13px #eee;
     border-radius: 10px;
     display: block;
-    
+
 }
 
 .btn-grad:hover {
