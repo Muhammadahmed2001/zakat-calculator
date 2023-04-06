@@ -3,21 +3,28 @@
 }
 
 body {
-    /* background-image: url(background-mobile.jpg); */
-    background-image: linear-gradient(135deg, #F05F57 10%, #360940 100%);
+    position: relative;
+    background-image: url(new-login-back.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-position-x: center;
+    background-position-y: center; */
+    min-height: 100%;
     background-repeat: no-repeat;
-    background-size: 100%;
+    /* background-image: linear-gradient(135deg, #F05F57 10%, #360940 100%);
+    background-repeat: no-repeat;
+    background-size: 100%; */
 
 }
 
-@media only screen and (min-width: 470px) {
+/* @media only screen and (min-width: 470px) {
     body {
-        /* background-image:url(pngtree-islamic-background-mawlid-al-nabi-ramadan-kareem-festival-picture-image_1219836.jpg); */
+        background-image:url(pngtree-islamic-background-mawlid-al-nabi-ramadan-kareem-festival-picture-image_1219836.jpg);
         background-size: 100%;
 
 
     }
-}
+} */
 
 .amount {
     width: 40% !important;
@@ -31,21 +38,46 @@ body {
 }
 
 .heading {
-    color: #3b0b40;
+    color: rgb(206, 31, 0);
     text-shadow: 0 0 15px rgba(255, 255, 255, .5), 0 0 10px rgba(255, 255, 255, .5);
     text-align: center;
-    padding-top: 10%;
+    padding-top: 2%;
 }
 
 .end_amount {
-    color: bisque;
+    color: rgb(206, 31, 0);
+    text-shadow: 0 0 15px rgba(255, 255, 255, .5), 0 0 10px rgba(255, 255, 255, .5);
     font-size: xx-large;
 }
 
 .last_heading {
     color: bisque;
+    color: rgb(206, 31, 0);
+    text-shadow: 0 0 15px rgba(255, 255, 255, .5), 0 0 10px rgba(255, 255, 255, .5);
 }
 
 .last_div {
     padding-bottom: 5%;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #414d0b 0%, #727a17 51%, #414d0b 100%);
+    margin: 10px;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 13px #eee;
+    border-radius: 10px;
+    display: block;
+    
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
 }
